@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    /* border-box:border-box; */
+
+}
+.team-card{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    
+}
+
+.main_body {
+    
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20220217/pngtree-colorful-sports-theme-background-material-image_944423.jpg);
+    background-size: 1495px;
+}
+#back_1{
+    background-color: #170431;
+    font-size: 1rem;
+    color: beige;
+    width: 1000px;
+    height: 100px;
+    
+}
+#image_1{
+    width:100px;
+    height: 100px;
+    position: relative;
+    padding: 2rem;
+    margin: 1rem;
+}
+header, nav, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #130202;
+}
+
+footer{
+    text-align: center;
+    
+}
+
+
+body{
+    margin-left: 20rem;
+    margin-right: 34rem;
+    
+}
+main{
+    margin-bottom: 29rem;
+}
+.table-striped{
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+}
